@@ -1,0 +1,27 @@
+.c1{
+    height: 25%;
+    width: 32%;
+}
+
+.c2{
+    height: 23%;
+    width: 23.8%;
+}
+
+.feedr{
+    border-radius: 20px;
+    
+
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover {
+    text-decoration: none; /* Remove underline on hover */
+    color: black;
+  }
+
+.ri{
+    border-radius: 20px;
+}

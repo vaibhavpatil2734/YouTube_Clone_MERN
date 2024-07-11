@@ -1,0 +1,32 @@
+.nava{
+    position:sticky;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+}
+.sp{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width:20%;
+    border-start-start-radius: 90px;
+    border-end-start-radius: 90px;
+}
+.searchpos{
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    border-top-right-radius: 90px ;
+    border-bottom-right-radius: 90px;
+}
+
+.profile-img{
+    position: absolute;
+    top: 15%;
+    left: 95%;
+    border-radius: 90%;
+}
+
+.bg-c{
+    background-color: #1a1a1a;
+}

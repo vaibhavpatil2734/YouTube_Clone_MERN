@@ -1,0 +1,171 @@
+
+
+  
+  .vpp{
+    position: relative;
+    top: 10%;
+    left: 8%;
+    width: 60%;
+    height: 100%;
+    background: #666666;
+    border: none;
+  }
+
+  .vs{
+    height: 14.4cm;
+    width: 100%;
+    border-radius: 20px;
+  }
+.imgbrand{
+  position: absolute;
+  top: -25%;
+  height: 160%;
+  width: 10%;
+}
+
+  .btnlike{
+    color: white;
+    position: sticky;
+    left: 47%;
+  }
+  .btnradileft{
+    border-start-start-radius: 90px;
+    border-end-start-radius: 90px;
+  }
+  .btnradiright{
+    border-top-right-radius: 90px ;
+      border-bottom-right-radius: 90px;
+  }
+
+  .subscribe-btn {
+    background-color: #FF0000; /* Red background color */
+    color: #FFFFFF; /* White text color */
+    padding: 10px 20px; /* Adjust padding to increase/decrease button size */
+    border: none;
+    border-radius: 20px; /* Rounds the corners */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    position: sticky;
+    left: 65%;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: #CC0000; /* Darker red color on hover */
+  }
+  
+  .r{
+    border-radius: 90%;
+    position: sticky;
+    left: 5%;
+  }
+
+  .comment-profile{
+    border-radius: 90%;
+    
+}
+.small-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  max-height: 150px; /* Adjust max-height to control image size */
+}
+/* **************************************************************************************************************** */
+
+.small-cards{
+  position: absolute;
+  width: 28%;
+  top:10%;
+  left: 70%;
+}
+
+.small-card-one{
+  position: sticky;
+  width: 100%;
+  height: 20%;
+}
+
+.small-card-one-image{
+  border-radius: 10px;
+}
+
+/* .small-card-one-des{
+  position: absolute;
+  left: 52%;
+  top: 0;
+} */
+
+.btn-comment-cancel{
+  position: absolute;
+  top: 0%;
+  left: 79%;
+  border-radius: 20px;
+}
+.btn-comment-comment{
+  position: absolute;
+  top: 0%;
+  left: 88%;
+  border-radius: 20px;
+}
+/* 
+.one{
+  position:relative;
+  padding: 5%;
+  top: 0%;
+  left: 8.1cm;
+  width: 80%;
+  background-color: #FF0000;
+}
+
+.two{
+  position: fixed;
+  background-color: rgb(126, 0, 128);
+  height: 100%;
+  width: 20%;
+  top: 10%;
+  left: 0%;
+}
+.four{
+  position: fixed;
+  background-color: green;
+  height: 10%;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+}
+.st{
+  position: sticky;
+  background-color: yellow;
+  width: 35cm;
+  height: 5cm;
+  left: 8cm;
+} */
+
+.comment {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.comment-profile {
+  margin-right: 10px;
+}
+
+.comment-content {
+  background-color:#666666;
+  padding: 10px;
+  border-bottom: 10px;
+  border-color: rgb(251, 247, 247);
+  flex: 1;
+}
+
+.cardsidecolor{
+  background-color: #666666;
+  border-color: #FFFFFF;
+}
