@@ -71,12 +71,13 @@ export default function VideoPlay(props) {
             <input
               className="form-control form-control-sm m-2"
               type="text"
+              data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"
               value={newComment}
               onChange={(e) => setNewComment(e.target.value)}
               placeholder="Add comments"
               aria-label=".form-control-sm example"
             />
-            <div className="card card-body p-4" style={{ backgroundColor: "#666666", border: "none" }}>
+            <div  id="collapseExample" className="card card-body p-4" style={{ backgroundColor: "#666666", border: "none" }}>
               <button className='btn-comment-cancel btn btn-outline-dark' onClick={() => setNewComment('')}>Cancel</button>
               <button className='btn-comment-comment btn btn-outline-dark' onClick={handleAddComment}>Comment</button>
             </div>
